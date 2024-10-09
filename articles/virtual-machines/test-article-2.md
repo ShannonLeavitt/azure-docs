@@ -52,7 +52,7 @@ RG_NAME=<your resource group name>
 az aks get-credentials -n $EXISTING_AKS_NAME -g RG_NAME
 ```
 
-### Deploy `cert-manager`
+### Deploy cert-manager
 
 To deploy SpinKube on an AKS cluster, you must have its dependencies installed. SpinKube depends on [cert-manager][cert-manager].
 
